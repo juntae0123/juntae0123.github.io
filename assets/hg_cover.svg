@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15224a"/><stop offset="1" stop-color="#2b1f52"/></linearGradient>
+<linearGradient id="gem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fd3ff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8fa8ff" stop-opacity=".35"/><stop offset="1" stop-color="#8fa8ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<g opacity=".07" stroke="#fff"><path d="M0 135H1200M0 270H1200M0 405H1200M0 540H1200M240 0V675M480 0V675M720 0V675M960 0V675"/></g>
+<circle cx="600" cy="225" r="150" fill="url(#glow)"/>
+<g transform="translate(548 150)">
+<polygon points="52,0 104,34 52,130 0,34" fill="url(#gem)"/>
+<polygon points="52,0 76,34 52,130 28,34" fill="#fff" opacity=".2"/>
+<polyline points="0,34 104,34" stroke="#fff" stroke-opacity=".4" stroke-width="2" fill="none"/></g>
+<g font-family="Pretendard,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" text-anchor="middle">
+<text x="600" y="372" fill="#fff" font-size="72" font-weight="800" letter-spacing="-1">Hidden Gem</text>
+<text x="600" y="424" fill="#c8d2ff" font-size="28">취향으로 찾는 게임 추천 서비스</text>
+<g fill="#fff" font-size="19">
+<rect x="337" y="460" rx="21" width="166" height="42" fill="#fff" fill-opacity=".12"/><text x="420" y="488">17,313 games</text>
+<rect x="517" y="460" rx="21" width="166" height="42" fill="#fff" fill-opacity=".12"/><text x="600" y="488">pgvector HNSW</text>
+<rect x="697" y="460" rx="21" width="166" height="42" fill="#fff" fill-opacity=".12"/><text x="780" y="488">LLM 증류 라벨</text></g></g>
+</svg>

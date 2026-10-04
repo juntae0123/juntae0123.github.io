@@ -1,72 +1,36 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>김준태 포트폴리오</title><meta name="description" content="김준태 — AI 서비스 개발 포트폴리오">
+<title>김준태 | AI 서비스 · 백엔드 개발</title><meta name="description" content="학습한 모델을 서비스 경로에 붙이고 숫자로 확인하는 개발자 김준태의 포트폴리오">
+<meta property="og:title" content="김준태 | AI 서비스 · 백엔드 개발"><meta property="og:description" content="학습한 모델을 서비스 경로에 붙이고 숫자로 확인하는 개발자 김준태의 포트폴리오"><meta property="og:image" content="https://juntae0123.github.io/assets/profile.jpg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
-<link rel="stylesheet" href="style.css"></head>
-<body><main>
-<h1>김준태</h1>
-<p class="sub">AI 서비스 개발 · 백엔드</p>
-<div class="links">
-<a href="mailto:juntai0312@gmail.com">juntai0312@gmail.com</a>
-<a href="https://github.com/juntae0123">github.com/juntae0123</a>
-<a href="https://hiddengemdb.com">hiddengemdb.com</a>
+<link rel="stylesheet" href="style.css"></head><body><nav class="nav"><div class="wrap"><a class="brand" href="#top">김준태</a>
+<ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li></ul></div></nav>
+<header class="hero" id="top"><div class="wrap">
+<div><p class="eyebrow">AI Service · Backend</p>
+<h1>모델을 <em>서비스에 붙이고</em>,<br>동작하는지 숫자로 확인합니다</h1>
+<p class="lead" id="about">전자공학을 전공하고 전장 제어기 검증 인턴을 거쳐 삼성청년SW·AI아카데미(SSAFY)에서 음성 인식과 로봇 조작 정책 학습을 맡았습니다. 지금은 게임 추천 서비스를 혼자 만들어 운영하고 있습니다.</p>
+<div class="btns"><a class="btn primary" href="mailto:juntai0312@gmail.com">✉ juntai0312@gmail.com</a>
+<a class="btn" href="https://github.com/juntae0123">GitHub</a><a class="btn" href="https://hiddengemdb.com">운영 중인 서비스 ↗</a></div></div>
+<div class="photo"><img src="assets/profile.jpg" alt="김준태 프로필 사진"><div class="name"><b>김준태</b><span>SSAFY 15기 · 광운대 전자공학</span></div></div>
 </div>
-<p class="intro">학습한 모델을 실제 서비스 경로에 붙이고, 그게 정말 동작하는지 숫자로 확인하는 일을 해 왔습니다. 전자공학을 전공하고 전장 제어기 검증 인턴을 거쳐 삼성청년SW·AI아카데미(SSAFY)에서 음성 인식, 로봇 조작 정책 학습을 맡았고, 게임 추천 서비스를 혼자 만들어 운영하고 있습니다.</p>
-
-<h2>프로젝트</h2>
-<div class="cards">
-<a class="card" href="projects/hidden-gem.html"><h3>Hidden Gem — 취향 기반 게임 추천 서비스</h3>
-<div class="meta">2026.03 ~ 운영 중 · 1인 · FastAPI · Django · PostgreSQL/pgvector · Redis · LLM API</div>
-<p>문장이나 지표로 입력한 취향에 맞는 게임을 17,313개 중에서 찾아줍니다. 데이터 구축부터 배포·운영까지 혼자 했습니다.</p></a>
-<a class="card" href="projects/imsure.html"><h3>IMSURE — 실시간 비대면 보험 상담 AI</h3>
-<div class="meta">2026.07 ~ 08 (3주) · 5인 팀 중 AI 파트 단독 · Whisper + LoRA · LiveKit · WebSocket</div>
-<p>상담사가 필수 고지를 빠뜨리면 말하는 도중에 경고합니다. 음성 인식 파인튜닝, 서빙 연결, 누락 판정 엔진을 맡았습니다.</p></a>
-<a class="card" href="projects/so101.html"><h3>SO-101 — 시연 학습 로봇팔의 조작 정책 학습·평가</h3>
-<div class="meta">2026.08 ~ 09 · 6인 팀 중 AI 트랙 B · Diffusion Policy · MuJoCo · Jetson</div>
-<p>사람이 보여준 시연으로 정책을 학습해 실물 로봇팔이 물체를 집어 상자에 넣게 했습니다. 평가 설계, 학습, 실물 배포와 디버깅을 맡았습니다.</p></a>
-</div>
-
-<h2>기술</h2>
-<p class="legend">★★★★ 혼자 설계·구현·운영할 수 있다 · ★★★ 프로젝트에서 직접 구현했다 · ★★ 써 봤지만 깊지 않다 · ★ 개념과 짧은 경험. 다섯 번째 별은 아직 채운 기술이 없습니다.</p>
-<table><tbody>
-<tr><th colspan="3">언어</th></tr>
-<tr><td>Python</td><td><span class="stars" aria-label="5점 중 4점">★★★★<span class="o">★</span></span></td><td>백엔드 API, 배치 파이프라인, 학습·평가 코드를 매일 쓴다</td></tr>
-<tr><td>C</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>인턴에서 제어기 보호 로직 구현, 고장 주입 시험</td></tr>
-<tr><td>SQL</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>PostgreSQL 스키마·마이그레이션, 운영 데이터 점검 쿼리</td></tr>
-<tr><td>TypeScript</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>Next.js 화면 구현. 설계를 주도할 수준은 아니다</td></tr>
-<tr><th colspan="3">백엔드·데이터</th></tr>
-<tr><td>FastAPI</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>추천·검색 읽기 경로 API, 의존성 기반 레이트 리밋</td></tr>
-<tr><td>Django</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>인증·회원·관리자, allauth·JWT</td></tr>
-<tr><td>PostgreSQL · pgvector</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>HNSW 벡터 검색, upsert 동기화 도구, 백업·복구</td></tr>
-<tr><td>Redis</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>캐시 키 설계, TTL. 클러스터 운영 경험은 없다</td></tr>
-<tr><td>WebSocket</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>음성 인식 결과를 백엔드로 전달, 재접속 처리</td></tr>
-<tr><th colspan="3">AI·ML</th></tr>
-<tr><td>PyTorch</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>학습 루프 작성, 재현성(결정적 실행) 설정</td></tr>
-<tr><td>LoRA 파인튜닝 (PEFT)</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>Whisper-medium 11회 실험, 오류 유형 분해 평가</td></tr>
-<tr><td>LLM API · 임베딩</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>Batch API 증류 라벨링, 질의 분석, 비용 실측</td></tr>
-<tr><td>모방학습 · Diffusion Policy</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>공식 구현 위에서 학습·평가·배포. 모델 구조를 바꾼 적은 없다</td></tr>
-<tr><td>VLM</td><td><span class="stars" aria-label="5점 중 1점">★<span class="o">★★★★</span></span></td><td>fp16 안정성과 스킬 선택 정확도 측정까지</td></tr>
-<tr><th colspan="3">인프라·도구</th></tr>
-<tr><td>Docker Compose</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>서비스별 컨테이너, 실행 위치 규칙 문서화</td></tr>
-<tr><td>Git</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>두 원격 동시 push, MR, 커밋 기록</td></tr>
-<tr><td>Railway · Vercel 배포</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>환경변수·도메인·DNS 연결, 운영 장애 대응</td></tr>
-<tr><td>Linux · 원격 GPU 서버</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>공유 V100 서버에서 학습, CUDA 버전 문제 해결</td></tr>
-<tr><td>Jira</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>팀 백로그·스토리포인트 규칙 운영</td></tr>
-<tr><td>MuJoCo</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>로봇 시뮬레이션 씬 구축, 평가 비결정성 원인 특정</td></tr>
-<tr><td>ROS2</td><td><span class="stars" aria-label="5점 중 1점">★<span class="o">★★★★</span></span></td><td>구조를 읽고 연동 위치를 파악한 정도</td></tr>
-<tr><th colspan="3">임베디드 검증 (인턴)</th></tr>
-<tr><td>AUTOSAR UDS 진단통신</td><td><span class="stars" aria-label="5점 중 3점">★★★<span class="o">★★</span></span></td><td>테스트 설계·수행, 결함 재현·등록, 사내 세미나 발표</td></tr>
-<tr><td>CANoe · TRACE32</td><td><span class="stars" aria-label="5점 중 2점">★★<span class="o">★★★</span></span></td><td>시험 환경 구성과 로그 분석</td></tr>
-</tbody></table>
-
-<h2>경력 · 교육</h2>
-<table class="meta-tbl"><tbody>
-<tr><td>2026.01 ~</td><td><b>삼성청년SW·AI아카데미 15기</b> — Python 기반 SW·AI 개발, 팀 프로젝트 3건</td></tr>
-<tr><td>2025.02 ~ 08</td><td><b>슈어소프트테크 인턴</b> — 전장 제어기 SW 검증. AUTOSAR 진단통신 테스트 설계·수행과 결함 재현, Fail-Safety 로직 C 구현과 고장 주입 검증</td></tr>
-<tr><td>2024.04 ~ 10</td><td>아텐츠 게임아카데미 — C/C#·Unity</td></tr>
-<tr><td>2017.03 ~ 2024.02</td><td>광운대학교 전자공학과 졸업</td></tr>
-<tr><td>어학</td><td>OPIc IM1 (2026.09)</td></tr>
-</tbody></table>
-
-<footer>2026.10 기준</footer>
-</main></body></html>
+<div class="wrap stats-wrap"><div class="stats">
+<div class="stat"><b>17,313개</b><span>Hidden Gem 추천 대상 게임</span></div>
+<div class="stat"><b>11.7% → 5.43%</b><span>보험 상담 음성 인식 문자 오류율</span></div>
+<div class="stat"><b>0.04~0.16×</b><span>발화 길이 대비 인식 처리 시간</span></div>
+<div class="stat"><b>61분 → 85초</b><span>운영 DB 동기화 시간</span></div>
+</div></div></header>
+<section id="skills"><div class="wrap"><div class="sec-title"><h2>Skills</h2><p>직접 써 본 범위만 적었습니다</p></div>
+<div class="legend"><span>★★★★ 혼자 설계·구현·운영할 수 있다</span><span>★★★ 프로젝트에서 직접 구현했다</span><span>★★ 써 봤지만 깊지 않다</span><span>★ 개념과 짧은 경험</span><span>다섯 번째 별은 아직 채운 기술이 없습니다</span></div>
+<div class="skill-grid"><div class="skill-col"><div class="skill-card"><h3>언어</h3><div class="skill"><span class="n">Python</span><span class="stars" aria-label="5점 중 4점">★★★★<i>★</i></span><span class="d">백엔드 API, 배치 파이프라인, 학습·평가 코드를 매일 쓴다</span></div><div class="skill"><span class="n">C</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">인턴에서 제어기 보호 로직 구현, 고장 주입 시험</span></div><div class="skill"><span class="n">SQL</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">PostgreSQL 스키마·마이그레이션, 운영 데이터 점검 쿼리</span></div><div class="skill"><span class="n">TypeScript</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">Next.js 화면 구현. 설계를 주도할 수준은 아니다</span></div></div>
+<div class="skill-card"><h3>AI·ML</h3><div class="skill"><span class="n">PyTorch</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">학습 루프 작성, 재현성(결정적 실행) 설정</span></div><div class="skill"><span class="n">LoRA 파인튜닝 (PEFT)</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">Whisper-medium 11회 실험, 오류 유형 분해 평가</span></div><div class="skill"><span class="n">LLM API · 임베딩</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">Batch API 증류 라벨링, 질의 분석, 비용 실측</span></div><div class="skill"><span class="n">모방학습 · Diffusion Policy</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">공식 구현 위에서 학습·평가·배포. 모델 구조를 바꾼 적은 없다</span></div><div class="skill"><span class="n">VLM</span><span class="stars" aria-label="5점 중 1점">★<i>★★★★</i></span><span class="d">fp16 안정성과 스킬 선택 정확도 측정까지</span></div></div>
+<div class="skill-card"><h3>임베디드 검증 (인턴)</h3><div class="skill"><span class="n">AUTOSAR UDS 진단통신</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">테스트 설계·수행, 결함 재현·등록, 사내 세미나 발표</span></div><div class="skill"><span class="n">CANoe · TRACE32</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">시험 환경 구성과 로그 분석</span></div></div>
+</div><div class="skill-col"><div class="skill-card"><h3>백엔드·데이터</h3><div class="skill"><span class="n">FastAPI</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">추천·검색 읽기 경로 API, 의존성 기반 레이트 리밋</span></div><div class="skill"><span class="n">Django</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">인증·회원·관리자, allauth·JWT</span></div><div class="skill"><span class="n">PostgreSQL · pgvector</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">HNSW 벡터 검색, upsert 동기화 도구, 백업·복구</span></div><div class="skill"><span class="n">Redis</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">캐시 키 설계, TTL. 클러스터 운영 경험은 없다</span></div><div class="skill"><span class="n">WebSocket</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">음성 인식 결과를 백엔드로 전달, 재접속 처리</span></div></div>
+<div class="skill-card"><h3>인프라·도구</h3><div class="skill"><span class="n">Docker Compose</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">서비스별 컨테이너, 실행 위치 규칙 문서화</span></div><div class="skill"><span class="n">Git</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">두 원격 동시 push, MR, 커밋 기록</span></div><div class="skill"><span class="n">Railway · Vercel 배포</span><span class="stars" aria-label="5점 중 3점">★★★<i>★★</i></span><span class="d">환경변수·도메인·DNS 연결, 운영 장애 대응</span></div><div class="skill"><span class="n">Linux · 원격 GPU 서버</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">공유 V100 서버에서 학습, CUDA 버전 문제 해결</span></div><div class="skill"><span class="n">Jira</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">팀 백로그·스토리포인트 규칙 운영</span></div><div class="skill"><span class="n">MuJoCo</span><span class="stars" aria-label="5점 중 2점">★★<i>★★★</i></span><span class="d">로봇 시뮬레이션 씬 구축, 평가 비결정성 원인 특정</span></div><div class="skill"><span class="n">ROS2</span><span class="stars" aria-label="5점 중 1점">★<i>★★★★</i></span><span class="d">구조를 읽고 연동 위치를 파악한 정도</span></div></div>
+</div></div></div></section>
+<section id="projects"><div class="wrap"><div class="sec-title"><h2>Projects</h2><p>카드를 누르면 맡은 일과 트러블슈팅을 볼 수 있습니다</p></div>
+<a class="proj" href="projects/hidden-gem.html"><div class="cover"><img src="assets/hg_cover.svg" style="object-position:50% 50%" alt="Hidden Gem 대표 이미지"></div><div class="body"><div class="tags"><span class="tag">1인 개발·운영</span><span class="tag">2026.03 ~ 운영 중</span></div><h3>Hidden Gem</h3><p class="psub">취향 기반 게임 추천 서비스</p><p class="one">한 문장, 슬라이더, 카드 스와이프로 입력한 취향에 맞는 게임을 17,313개 중에서 찾아줍니다. 기획부터 데이터 구축, 백엔드, 배포, 운영까지 혼자 했습니다.</p><ul><li>LLM 증류로 게임 17,313개에 경험 지표 라벨링, 요청당 $0.0049</li><li>문서 검토가 놓친 채점 결함을 소스에서 찾아 수정</li><li>운영 DB 정합 도구로 동기화 61분 → 85초</li></ul><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">PostgreSQL</span><span class="chip">pgvector</span><span class="chip">Redis</span><span class="chip">OpenAI Batch API</span></div><span class="more">자세히 보기 →</span></div></a>
+<a class="proj" href="projects/imsure.html"><div class="cover contain"><img src="assets/imsure_arch.png" style="object-position:50% 50%" alt="IMSURE 대표 이미지"></div><div class="body"><div class="tags"><span class="tag">SSAFY 팀 프로젝트</span><span class="tag">AI 파트 단독</span><span class="tag">2026.07 ~ 08</span></div><h3>IMSURE</h3><p class="psub">실시간 비대면 보험 상담 AI</p><p class="one">화상 보험 상담 중 상담사가 법정 필수 고지를 빠뜨리면 말하는 도중에 경고하고, 증적 영상에 그 발화 지점을 표시합니다. 5인 팀에서 AI 파트를 혼자 맡았습니다.</p><ul><li>Whisper LoRA 11회 실험으로 문자 오류율 11.7% → 5.43%</li><li>실제 세션 처리 시간 발화 길이의 0.04~0.16배</li><li>잘못 붙은 판정 14건 → 2건, 놓친 항목 0건 유지</li></ul><div class="chips"><span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Whisper-medium</span><span class="chip">LoRA (PEFT)</span><span class="chip">LiveKit</span><span class="chip">WebSocket</span><span class="chip">문장 임베딩</span></div><span class="more">자세히 보기 →</span></div></a>
+<a class="proj" href="projects/so101.html"><div class="cover"><img src="assets/so101_cover.jpg" style="object-position:50% 75%" alt="SO-101 시연 학습 로봇팔 대표 이미지"></div><div class="body"><div class="tags"><span class="tag">SSAFY 팀 프로젝트</span><span class="tag">AI 트랙 B</span><span class="tag">2026.08 ~ 09</span></div><h3>SO-101 시연 학습 로봇팔</h3><p class="psub">조작 정책 학습·평가 · FLY ASIA 출품작</p><p class="one">사람이 손에 드는 핸들로 보여준 시연을 학습해, 실물 로봇팔이 카메라 영상만 보고 물체를 쥐어 상자에 넣게 했습니다. 정책 학습과 평가를 맡았고, 일정이 줄면서 실물 배포와 디버깅까지 맡았습니다.</p><ul><li>평가 기준을 착수 첫날 코드 상수로 고정</li><li>손실은 줄어드는데 성공률 0% → 계측기로 원인을 분리해 5.7%</li><li>실물 로봇팔이 쥐기 → 운반 → 상자에 놓기 전 구간 통과</li></ul><div class="chips"><span class="chip">PyTorch</span><span class="chip">Diffusion Policy</span><span class="chip">BC · ACT</span><span class="chip">DAgger</span><span class="chip">MuJoCo</span><span class="chip">TorchScript</span><span class="chip">Jetson</span></div><span class="more">자세히 보기 →</span></div></a>
+</div></section>
+<section id="experience"><div class="wrap"><div class="sec-title"><h2>Experience</h2><p>경력 · 교육</p></div><div class="timeline"><div class="tl"><span class="when">2026.01 ~</span><div><b>삼성청년SW·AI아카데미 (SSAFY) 15기</b><p>Python 기반 SW·AI 개발 과정, 팀 프로젝트 3건</p></div></div><div class="tl"><span class="when">2025.02 ~ 2025.08</span><div><b>슈어소프트테크 · 인턴</b><p>전장 제어기 SW 검증. AUTOSAR 진단통신 테스트 설계·수행과 결함 재현, Fail-Safety 로직 C 구현과 고장 주입 검증</p></div></div><div class="tl"><span class="when">2024.04 ~ 2024.10</span><div><b>아텐츠 게임아카데미</b><p>C/C# · Unity</p></div></div><div class="tl"><span class="when">2017.03 ~ 2024.02</span><div><b>광운대학교 전자공학과 졸업</b></div></div><div class="tl"><span class="when">2026.09</span><div><b>OPIc IM1</b></div></div></div></div></section>
+<footer><div class="wrap">김준태 · <a href="mailto:juntai0312@gmail.com">juntai0312@gmail.com</a> · <a href="https://github.com/juntae0123">github.com/juntae0123</a></div></footer></body></html>
