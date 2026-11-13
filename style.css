@@ -105,3 +105,6 @@ figcaption{font-size:13.5px;color:var(--muted);margin-top:8px}
 .meta{grid-template-columns:repeat(2,1fr)}.did{grid-template-columns:1fr}.figs{grid-template-columns:1fr}.nav ul{display:none}.tl{grid-template-columns:1fr;gap:4px}}
 @media (max-width:520px){.stat b{font-size:19px}.stat{padding:16px}.wrap{padding:0 16px}.hero{padding:40px 0 32px}.hero h1{font-size:28px}.d-hero h1{font-size:30px}.ts .row{grid-template-columns:1fr;gap:2px}.res td:nth-child(2){white-space:normal}section{padding:56px 0 0}}
 .d-hero .eyebrow{letter-spacing:.04em;font-size:14px}
+
+.proj.proj-text{grid-template-columns:1fr}
+#on-safe{scroll-margin-top:76px}

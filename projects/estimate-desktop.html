@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>도면 근거 기반 적산 프로그램 | 김준태</title>
+  <meta name="description" content="PDF 도면에서 확인한 치수와 개수를 승인한 뒤 철골·판넬·창호 물량과 검토용 견적을 계산합니다. 계산한 수량을 기존 Excel 양식에 연결해 사본으로 저장합니다.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav class="nav"><div class="wrap">
+    <a class="brand" href="../index.html">김준태</a>
+    <ul><li><a href="../index.html#projects">Projects</a></li></ul>
+  </div></nav>
+  <main class="wrap">
+    <header class="d-hero">
+      <a class="back" href="../index.html#projects">← 전체 프로젝트</a>
+      <p class="eyebrow">Windows 앱 · 0.4 개발 중</p>
+      <h1>도면 근거 기반 적산 프로그램</h1>
+      <p class="one">PDF 도면에서 확인한 치수와 개수를 승인한 뒤 철골·판넬·창호 물량과 검토용 견적을 계산합니다. 계산한 수량을 기존 Excel 양식에 연결해 사본으로 저장합니다.</p>
+    </header>
+    <section class="d-sec">
+      <h2>내가 한 일</h2>
+      <p>요구사항과 개발 우선순위를 정하고 AI 코딩 도구를 활용해 도면 등록·근거 확인·승인·견적 출력 흐름을 설계하고 구현했습니다. Tauri 2와 React 화면에 Python 계산 엔진을 연결하고, 계산에 사용한 도면 쪽과 근거 영역을 기록했습니다.</p>
+      <div class="chips"><span class="chip">Tauri 2</span><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Python</span><span class="chip">XLSX</span></div>
+    </section>
+    <section class="d-sec">
+      <h2>트러블슈팅</h2>
+      <article class="ts">
+        <h3>개정 전 도면의 승인값이 견적에 남는 문제</h3>
+        <div class="row"><span>상황</span><div>도면이 바뀐 뒤에도 이전 도면을 근거로 승인한 수량이 남으면 그 값이 다음 견적에 들어갈 수 있었습니다.</div></div>
+        <div class="row"><span>수정</span><div>검토자가 이전 PDF와 변경 PDF를 지정하면 영향을 받은 입력의 승인만 해제합니다. 화면과 계산 엔진에서 이전 도면 값의 사용을 차단하고, 같은 항목에 새 근거를 지정해 재승인할 수 있게 했습니다.</div></div>
+        <div class="row"><span>Excel 연결</span><div>양식 해시와 항목 ID·품명·공종·단위가 일치할 때 저장된 수량 셀 연결을 다시 사용합니다. 지정한 수량을 표준 XLSX 사본에 반영합니다.</div></div>
+      </article>
+    </section>
+    <section class="d-sec">
+      <h2>검증 범위</h2>
+      <p>2026년 11월 13일 0.4 검증에서 TypeScript 27개와 Python 12개 오프라인 회귀 시험, 포함 엔진 실행 점검 5종을 통과했습니다. 합성 수량과 견적이 기대값과 일치했고 XLSX 사본에서 기존 수식이 유지됐습니다. Windows 실행 파일과 설치 파일을 빌드했습니다.</p>
+      <ul class="limits">
+        <li>0.4 앱 조작·설치와 실제 도면·회사 Excel 양식은 검수 대기입니다.</li>
+        <li>AI 자동 판독, CAD 자동 물량 산출, 상세 3D/BIM은 후속 계획입니다.</li>
+      </ul>
+    </section>
+  </main>
+  <footer><div class="wrap">김준태 · <a href="https://github.com/juntae0123">GitHub</a></div></footer>
+</body>
+</html>

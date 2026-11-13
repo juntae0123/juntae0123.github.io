@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>웨이닝 헤일로 | 김준태</title>
+  <meta name="description" content="Unreal Engine 5로 제작 중인 3인칭 판타지 액션 RPG입니다. 에디터 시험 맵에서 전투 입력과 무기 판정을 확인하고 전투 모션을 비교합니다.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav class="nav"><div class="wrap">
+    <a class="brand" href="../index.html">김준태</a>
+    <ul><li><a href="../index.html#projects">Projects</a></li></ul>
+  </div></nav>
+  <main class="wrap">
+    <header class="d-hero">
+      <a class="back" href="../index.html#projects">← 전체 프로젝트</a>
+      <p class="eyebrow">1인 게임 개발 · 내부 프로토타입</p>
+      <h1>웨이닝 헤일로</h1>
+      <p class="one">Unreal Engine 5로 제작 중인 3인칭 판타지 액션 RPG입니다. 에디터 시험 맵에서 전투 입력과 무기 판정을 확인하고 전투 모션을 비교합니다.</p>
+    </header>
+    <section class="d-sec">
+      <h2>내가 한 일</h2>
+      <p>게임의 방향과 기능 우선순위, 전투 모션의 검수 기준을 정했습니다. AI 개발 도구의 지원을 받아 C++ 전투 시험장에 몽타주, 입력 버퍼, 무기 스윕과 대시를 연결하고, Blender·Python과 Unreal로 모션을 비교하는 절차를 만들었습니다. 모션 시험에는 Epic 마네킹과 기본 리그를 사용했습니다.</p>
+      <div class="chips"><span class="chip">Unreal Engine 5</span><span class="chip">C++</span><span class="chip">Blender</span><span class="chip">Python</span></div>
+    </section>
+    <section class="d-sec">
+      <h2>트러블슈팅</h2>
+      <article class="ts">
+        <h3>양손검 내려베기의 발 디딤과 칼끝 타이밍</h3>
+        <div class="row"><span>상황</span><div>내려베기 시안에서 팔꿈치가 몸 쪽으로 접혔습니다. 수정본에서는 검이 늦게 내려오고 팔이 회수 구간까지 뻗어 있었습니다.</div></div>
+        <div class="row"><span>확인</span><div>Unreal의 영상과 같은 구간의 뼈 데이터를 비교해 팔이 도달 한계에 오래 머물고, 발 디딤과 칼끝 최저점이 다른 시점에 나타나는 것을 확인했습니다.</div></div>
+        <div class="row"><span>검수 변경</span><div>후속 시안에서 타격 전후의 전신 실루엣과 접지, 칼끝 마무리 시점, 회수 구간을 함께 확인하도록 기준을 바꿨습니다.</div></div>
+      </article>
+    </section>
+    <section class="d-sec">
+      <h2>검증 범위</h2>
+      <p>Unreal 에디터 플레이 모드에서 대역 모션과 자동 입력을 사용해 공격 구간, 허수아비 명중, 회피와 입력 경계를 확인했습니다.</p>
+      <ul class="limits">
+        <li>정식 무기별 연계, 수동 조작과 1장 전체 플레이는 검증이 남아 있습니다.</li>
+        <li>독립 실행 패키지와 스토어 출시는 후속 단계입니다.</li>
+      </ul>
+    </section>
+  </main>
+  <footer><div class="wrap">김준태 · <a href="https://github.com/juntae0123">GitHub</a></div></footer>
+</body>
+</html>
